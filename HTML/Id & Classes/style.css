@@ -1,0 +1,28 @@
+#firstdiv{
+   background-color:turquoise ;
+   
+}
+
+.seconddiv{
+    background-color:rgb(128, 183, 227) ;
+    color:crimson;
+}
+
+span.seconddiv{
+    background-color: yellow;
+}
+
+
+#identity{ 
+    background-color: turquoise;
+    color:red;
+}
+
+.class{
+    background-color:rgb(128, 183, 227) ;
+    color:red;
+}
+
+span.class{
+    background-color:yellow;
+}

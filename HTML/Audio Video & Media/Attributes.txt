@@ -1,0 +1,7 @@
+Attributes:-
+Controls
+Autoplay
+loop
+Svg Link :- <svg xmlns="http://www.w3.org/2000/svg">
+
+Comment in Html:- <!--  -->   Short Cut: Copy the code then Ctrl + /
