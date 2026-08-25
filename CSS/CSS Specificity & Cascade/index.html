@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <style>
+    /* Universal Selector  Sepecificity is 1 */    
+    h2{
+        color: brown;
+    }    
+    
+    /* Class Selector Specificity is 10 */
+    .blue{
+        color:blue;
+    }
+
+    /* Class Selector Specificity is 10 */
+    .yellow{
+        color:yellow;
+    }
+
+    /* Class Selector Specificity is 10 */
+    .green{
+        color:green;
+    }
+    
+    /* Id Selector Specificity is 10
+    #choclate{
+        color:chocolate;
+    }*/
+    
+    /* Attribute Selector Specificity is 10 */
+    [data-x=a]{
+        color:chartreuse;
+    }
+    
+    /* Complex Selector Specificity is 1+10 */
+    h2.blue{
+        color:blue;
+    }
+
+    a.abhiclass.rohan-class[href]:hover{
+        color:darkgoldenrod;
+    }
+
+
+    </style>
+</head>
+<body>
+<h1>CSS Specificity & Cascade</h1>  
+<h2 class="blue yellow green a.abhiclass.rohan-class[href]:hover" id="choclate" data-x="a">CSS Specificity:- Selector Same ek hi Tarah Ka Hai. Class Selector, Id Selector, Jo Bad Mei Lagaya Gya Hoga Vo He Execute Hoga.  </h2>  
+<h3>Universal Selector Specificity is 1.</h3>
+<h3>Class & Id Selector Specificity is 10.</h3>
+<h3>Attribute Selector Specificity is 10.</h3>
+<h3>Complex Selector ( h2.blue ) Specificity is 1 + 10.</h3>
+<h3>Inline Style Selector ( style="" ) Specificity is 1000.</h3>
+<h3>Question:- a.abhiclass.rohan-class[href]:hover? Color:red; What is the specificity?</h3>
+<h3>Answer:- 1 + 10 + 10 + 10 + 10 = 41. (:hover is the Pseudo class Selector Specificity is 10)</h3>
+<h3>Specificity Calculate:- Most Priority Inline Selector & after Id Selector & than Class Selector & than Attribute Selector & than Element Selector & than Universal Selector.</h3>
+</body>
+</html> 
