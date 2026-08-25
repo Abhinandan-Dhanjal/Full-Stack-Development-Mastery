@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Margin, Padding, Borders</title>
+</head>
+<style>
+div{
+    background-color: antiquewhite;
+}
+
+.box1{
+    height:200px;
+    text-align:center;
+    border:5px solid black;
+    color:chocolate;
+    margin:25px;
+    padding:10px;
+    box-sizing:border-box;
+
+}
+
+.box2{
+    height:200px;
+    border:5px solid greenyellow;
+    text-align:center;
+    color:cadetblue;
+    margin:25px;
+    padding:10px;
+    box-sizing:border-box;
+}
+</style>
+<body>
+<h1>CSS Box Model:- Margin, Padding, Border.</h1>
+
+<div class="box1">I am a First Box</div>
+<div class="box2">I am a Second Box</div>
+
+<h3>Box-Sizing:Border Box means jo mere element content ki height hai 200px, Border or Padding 3ino ko include krke likhi hai. Content (Height) + Border + Padding.</h3>
+<h3>Margin Collapse: Agar 2 elements ki margin overlap ho rhi hai jo bhi maximum margin hai vo bs ek bar lagegi. For ex:- Maine First Box mei margin 25px di hai or Second Box mei margin 25px di hai or dono mei maximum margin 25px hai to 25px lagegi. Agar First Box mei margin 25px hai or Second Box mei margin 35px hai to Maximum margin 35px lagegi.</h3>
+</body>
+</html>
