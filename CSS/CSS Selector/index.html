@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+</head>
+<style>
+div{
+    background-color: rgb(248, 201, 115);
+}
+
+.classselector{
+  background-color:  yellowgreen;  
+}
+
+#idselector{
+    background-color:  rgb(250, 250, 129);
+}
+
+div p{
+    background-color: rgb(253, 194, 253);;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Pseudo Selector:- */
+
+a:link{
+color:crimson;
+}
+
+a:visited{
+    color:cornflowerblue;
+}
+
+a:active{
+    color:rebeccapurple;
+}
+
+a:hover{
+    color:rgb(35, 133, 35); 
+}
+
+.box:first-child{
+background-color:  turquoise;
+}
+
+/*.box::second-line{
+    color: cadetblue;
+}*/ 
+
+
+/* Its Pseudo Element. not Pseudo Selector:- */
+.boxes::before{
+content:"ABHINANDAN BHAI, is a good coder." ;
+background-color: black;
+color: aliceblue;
+}
+
+
+</style>
+<body>
+<h3>Element Selector:-</h3> 
+<div>I am a Element Selector.</div>
+
+<h3>Class Selector:-</h3>
+<div class="classselector">I am a Class Selector.</div>
+
+<h3> ID Selctor:- </h3>
+<div id="idselector">I am a ID Selector.</div>
+
+<h3>Child Selector:-</h3>
+<div> I am a Div. <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+ Quasi ex ipsum impedit doloribus aperiam consectetur dolore commodi, 
+dicta reprehenderit architecto. Unde, autem magnam.</p></div>
+
+<h3>Universal Selector:-</h3>
+<h5>margin:0; padding:0;</h5>
+
+<h3>Pseudo Selector:-</h3>
+<a href="https//www.google.com">Google</a>
+<br>
+<a href="https//www.youtube.com">Youtube</a>
+
+<h3>Pseudo Element:-</h3>
+<div class="boxes">
+<div class="box">I am a First Box</div>
+<div class="box">I am a Second Box</div>
+</div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+    /* Comment in CSS*/
+
+       
+    div{
+        background-color: rgb(248, 201, 115);
+    }
+
+    .class{
+        background-color: yellowgreen; 
+    }
+
+    #id{
+        background-color:  rgb(250, 250, 129);
+    }
+
+    div p{
+        background-color:  rgb(253, 194, 253);
+    }
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    /* Pseudo Selector */
+    a:link{
+        color: crimson;
+    }
+
+    a:visited{
+        color: cornflowerblue;
+    }
+
+    a:active{
+        background-color: rebeccapurple;
+    }
+
+    a:hover{
+        background-color:rgb(35, 133, 35) ;
+    }
+    
+    /* Its Pseudo Elements, not Pseudo Selector.*/
+    .boxes::before{
+     content:"ABHINANDAN BHAI, is a good coder.";
+     background-color: black;  
+     color:aliceblue;  
+    }
+
+    .boxes::after{
+     content:"AFFCOURSE, he is a good coder.";
+     background-color: black;   
+     color:aliceblue; 
+    }
+
+    .box:first-child{
+        background-color: turquoise;
+    }
+
+    .box::second-line{
+        background-color: red;
+    }
+
+
+    </style>
+</head>
+<body>
+<h2>Comment in CSS:- /* */</h2>  
+<br>
+<h2>Element Selector:-</h2>  
+<div>I am a Element Selector.</div> 
+
+<h2>Class Selector:-</h2>
+<div class="class">I am a Class Selector.</div>
+
+<h2>Id Selector:-</h2>
+<div id="id">I am a Id Selector.</div>
+
+<h2>Child Selector:-</h2>
+<div>I am a Div.<p>I am a Child Selector.</p></div>
+
+<h2>Universal Selector:-</h2>
+<h4>*{} margin:0; padding:0;</h4>
+
+<h2>Pseudo Selector:-</h2>
+<a href="https://www.google.com">Google</a>
+<br>
+<a href="https://www.youtube.com">Youtube</a>
+
+<h3>Pseudo Element:-</h3>
+<div class="boxes">
+<div class="box">I am a First Box.</div> 
+<div class="box">I am a Second Box.</div>   
+</div>
+</body>
+</html>
