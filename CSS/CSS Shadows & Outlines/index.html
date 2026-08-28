@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows & Outlines</title>
+    <style>
+    h1{
+        text-align:center;
+    }   
+    
+    
+    .shadow{
+        border:2px solid black;
+        padding:35px;
+        box-shadow:25px 20px 25px blueviolet;
+    }
+
+
+    .text-shadow{
+        border:3px solid black;
+        padding:35px;
+        text-shadow:2px 2px 4px rgb(238, 11, 7);
+        border-radius:5px;
+        outline: 3px solid rgb(239, 148, 29);
+
+        /* Outline Space Ko Increase Krna */
+        outline-offset:15px;
+    }
+    </style>
+</head>
+<body>
+<h1>CSS Shadows & Outlines:-</h1> 
+<h3>Shadow effects elements like box-shadow:h-offset, v-offset, blur, spread, color, inset;</h3>   
+<div class="shadow">Hii everyone... I am a shadow.</div>
+<br>
+<h3>Text Shadow:-</h3>
+<p class="text-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Ullam quisquam voluptas maxime! Amet voluptatibus accusamus error eos
+    dignissimos asperiores! Aliquam adipisci ab, mollitia eaque eius architecto
+    facilis alias repellat error officiis molestiae animi sapiente ullam sit eligendi
+    vitae magni totam illum voluptatibus ipsam fugit. Sapiente cupiditate cumque sint
+    amet veniam totam aperiam odio beatae accusantium Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. Nihil esse deserunt consequuntur. Molestiae voluptates
+    nihil soluta dolorum, doloribus nostrum consequatur.
+</p>
+<h3>Outline:- Outline & Border are not same. Outline Border ke bahar lagti hai.</h3>
+</body>
+</html> 
