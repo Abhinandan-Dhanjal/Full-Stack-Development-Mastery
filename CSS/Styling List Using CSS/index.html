@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling List using CSS</title>
+    <style>
+    h1{
+        text-align:center;
+    }
+
+   
+    nav ul li{
+     /* Important Property  */     
+     /* list-style:none;  Marker (jo disc Gola) remove ho jayega. */
+      background-color:rgb(44, 218, 218); /* Background-color krne se Marker bahar reh gya. Marker List-item (li) ke inside nahi hai. */
+      list-style-position:inside; /* List-Style-Position: inside; krne se Marker (li) ke inside a jayega. */
+      border:2px solid black;
+      /* Marker Ko Image Se Replace Krna */
+      /*list-style-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnlwODlwYzNkbGFsb3l3enBpb29hNTIyc2k4MDF4cGk3YmI0anh6NyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif");*/
+      list-style-type:"🦸"; /* List-style-Type mei Emoji Lagana. */
+    }
+   
+    </style>
+</head>
+<body>
+<h1>Styling List Using CSS </h1>    
+<nav>
+<ul>
+<li>Home</li>   
+<li>About</li> 
+<li>Contacts Us</li>
+</ul>    
+</nav>    
+</body>
+</html>
