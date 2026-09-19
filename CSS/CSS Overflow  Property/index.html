@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow Property</title>
+    <style>
+    .box1{
+     border:2px solid black;   
+     height:20vh;
+     width:60vw;
+     overflow:scroll;
+    }
+
+    .box2{
+        border:2px solid black;
+        height:20vh;
+        width:60vw;
+        /* Overflpw Auto:- jab overflow kre to scrollbar dikha dena.
+           but overflow nai kr rha hai to scrollbar dilkhane ki jrurat nai hai. */
+        overflow:auto;
+    }
+
+    .box3{
+        border:2px solid black;
+        height:20vh;
+        width:60vw;
+        /* White Space nowrap:- Horizontally space lega, 
+           or vertically niche text nai girega.  */
+        white-space:nowrap;
+        overflow:auto;
+    }
+
+    .box4{
+        border:2px solid black;
+        height:20vh;
+        width:60vw;
+        overflow:auto;
+        white-space: nowrap;
+        /* Text Overflow Ellipsis:- Krne se dots a jate hai.*/
+        text-overflow:ellipsis;
+    }
+    </style>
+</head>
+<body>
+<h1>CSS Overflow Property:-</h1>
+<div class="box1">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic molestias
+   impedit distinctio maxime consequatur, cupiditate ipsa, culpa cumque laudantium,
+   vero similique ipsum pariatur ullam! Quidem odit perspiciatis, qui ut excepturi
+   nulla, cumque, id possimus dolorem ducimus odio eligendi minima! Molestiae cumque,
+   fugit labore, et laboriosam temporibus dolore reiciendis explicabo dolorem iusto
+   qui accusamus reprehenderit? Nostrum animi cumque, ea provident voluptas hic quidem
+   deleniti sed quibusdam nemo quas nulla earum autem? Eius facilis, soluta unde
+   accusamus, atque recusandae dignissimos voluptatem similique nostrum dolor nemo?
+   Sapiente expedita alias quia repellendus. Assumenda tempore dolor ut eum ullam
+   iusto eaque rem dignissimos, debitis repellat a ex dicta ea quia, at illum 
+   architecto sequi, blanditiis consequuntur? Illum nobis odio non eveniet modi
+   iusto alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+   rem perspiciatis porro nostrum, quae nulla eum placeat at maxime praesentium?
+</div> 
+ 
+<h1>Overflow Auto:-</h1>   
+<div class="box2">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reiciendis
+   autem animi, doloribus incidunt est, minus cum natus mollitia iste iusto dolor
+   nesciunt eaque quas officia ducimus id. Expedita voluptatem veritatis corrupti
+   cum omnis magnam ipsum quam animi tenetur. Ipsam sapiente sint eos. Natus ab 
+   voluptatibus exercitationem, sequi atque neque?    
+</div>
+
+<h1>White Space No Wrap:-</h1>
+<div class="box3">
+   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias perspiciatis
+   voluptatibus ullam quia rem doloremque culpa aspernatur ipsum a provident similique
+   alias labore, consequuntur vel quisquam iste voluptate sequi exercitationem, expedita 
+   tempora aliquam illo! Deserunt, provident illum assumenda explicabo magni saepe 
+   eveniet aperiam, temporibus ducimus atque itaque corporis laboriosam. Ad placeat,
+   numquam quis architecto expedita, deleniti commodi quaerat nesciunt dolor odio 
+   labore fuga optio consequatur natus impedit eligendi veritatis nemo!    
+</div>
+
+<h1>Text Overflow Ellipsis:-</h1>
+<div class="box4">
+   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti dolorem quasi 
+   illum quam expedita incidunt quisquam error dicta, totam praesentium nobis nostrum
+   suscipit repellat neque ea optio molestias minus voluptatum nisi laudantium. Porro
+   harum fugiat excepturi dolores amet, corporis delectus distinctio architecto atque
+   ullam praesentium natus rerum facilis obcaecati blanditiis. 
+</div>
+</body>
+</html>
