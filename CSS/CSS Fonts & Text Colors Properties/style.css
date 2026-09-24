@@ -1,0 +1,56 @@
+h1{
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color:grey;
+    }
+    
+    h2{
+       text-transform:uppercase;
+       color:violet; 
+    }
+
+    h3{
+        text-transform:lowercase;
+        color:tomato;
+    }
+
+    h4{
+        text-decoration: underline;
+        color:teal;
+    }
+
+
+    h5{
+        text-decoration:underline;
+        text-decoration-style:dotted;
+        color:sienna;
+    }
+
+    h6{
+        text-decoration:underline;
+        text-decoration-style:double;
+        color:royalblue;
+    }
+
+    p{
+        text-decoration:underline;
+        color:blue;
+        font-style:italic;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:30px;
+        font-weight:bold;
+        line-height:3;
+
+    } 
+    
+    li{
+        /* Color */
+        color:black;
+
+        /* HEX Color */
+        color:#0BEE0B;
+
+        /* RGB */
+        color:rgb(33, 160, 16);
+
+    } 
