@@ -1,0 +1,38 @@
+/* Universal Selector  Sepecificity is 1 */    
+    h2{
+        color: brown;
+    }    
+    
+    /* Class Selector Specificity is 10 */
+    .blue{
+        color:blue;
+    }
+
+    /* Class Selector Specificity is 10 */
+    .yellow{
+        color:yellow;
+    }
+
+    /* Class Selector Specificity is 10 */
+    .green{
+        color:green;
+    }
+    
+    /* Id Selector Specificity is 10
+    #choclate{
+        color:chocolate;
+    }*/
+    
+    /* Attribute Selector Specificity is 10 */
+    [data-x=a]{
+        color:chartreuse;
+    }
+    
+    /* Complex Selector Specificity is 1+10 */
+    h2.blue{
+        color:blue;
+    }
+
+    a.abhiclass.rohan-class[href]:hover{
+        color:darkgoldenrod;
+    }
