@@ -1,0 +1,52 @@
+*{
+        margin:0;
+        padding:0;
+    }
+
+
+    h1{
+    color:crimson;
+    text-decoration: underline;
+    text-align:center;
+
+    }
+
+    .firstbox{
+        border:2px solid black;
+        background-color: yellow;
+       /* width:233px; */
+
+       /* Responsive Design */
+        width:80vw;
+        box-sizing:border-box;
+
+        margin:auto;
+        height:10vh;
+
+    }
+
+    .container{
+        border:2px solid black;
+        background-color:yellowgreen;
+        width:80vw;
+        box-sizing:border-box;
+        margin:auto;
+       /* height: 80vh; */
+       min-height:80vh;
+    }
+
+    p{
+        font-size:1em;
+        /* es paragraph ke parent ki width 50% */
+        width:50%;
+        border:2px solid black;
+    }
+
+    .secondbox{
+        border:2px solid black;
+        background-color: tan;
+        box-sizing:border-box;
+        margin:auto;
+        /* width:100vmin; */
+        width:80vw;
+    }
