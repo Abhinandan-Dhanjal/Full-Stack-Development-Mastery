@@ -1,0 +1,35 @@
+ .box1{
+     border:2px solid black;   
+     height:20vh;
+     width:60vw;
+     overflow:scroll;
+    }
+
+    .box2{
+        border:2px solid black;
+        height:20vh;
+        width:60vw;
+        /* Overflpw Auto:- jab overflow kre to scrollbar dikha dena.
+           but overflow nai kr rha hai to scrollbar dilkhane ki jrurat nai hai. */
+        overflow:auto;
+    }
+
+    .box3{
+        border:2px solid black;
+        height:20vh;
+        width:60vw;
+        /* White Space nowrap:- Horizontally space lega, 
+           or vertically niche text nai girega.  */
+        white-space:nowrap;
+        overflow:auto;
+    }
+
+    .box4{
+        border:2px solid black;
+        height:20vh;
+        width:60vw;
+        overflow:auto;
+        white-space: nowrap;
+        /* Text Overflow Ellipsis:- Krne se dots a jate hai.*/
+        text-overflow:ellipsis;
+    }
