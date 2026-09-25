@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+ul{
+    display:flex;
+}
+
+
+ul li{
+    list-style:none;
+    padding:35px;
+}
+
+
+.nav{
+   /* background-color: blueviolet;*/
+   background-color:var(--color);
+}
+
+
+.paragraph{
+    /* background-color:darkgoldenrod; */
+    background-color:var(--seccolor);
+}
+
+
+/* Root is a global variable jaha bhi mera primary or secondary color use ho rha hoga wo change ho jayega sirf 2 variables ke through or mei apni sari website ke color change kr skta hu. ho sakta hai yeh color meri website mei 10 se 50 bar use ho rha hoga, vo maine root global variable bnake easily use krlia. */
+:root{
+    --color:yellow;
+    --seccolor:gold;
+}
+
+
+/* Local Variable:- Agar mei List ke home ka background ya color change krna chahta hu. that is called Local Variable. */
+ul li:first-child{
+    --color:white;
+    --seccolor:green;
+    color:var(--color);
+    background-color:var(--seccolor);
+    
+}
