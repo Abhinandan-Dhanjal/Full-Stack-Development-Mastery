@@ -1,0 +1,39 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+
+ul{
+    display:flex;
+}
+
+
+ul li{
+    list-style:none;
+    padding:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+
+:root{
+    --primcolor:rgb(197, 79, 197);
+    --textcolor:white;
+    --seccolor:rgb(250, 205, 250);
+}
+
+
+.navbar{
+    background-color:var(--primcolor);
+}
+
+
+ul li{
+    color:var(--textcolor);
+}
+
+
+body{
+    background-color:var(--seccolor);
+} 
