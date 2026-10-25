@@ -1,0 +1,70 @@
+.container{
+    border:3px solid rgb(71, 4, 4);
+    height:80vh;
+    width:100vw;
+
+
+}
+
+
+.box1{
+    border:2px solid rgb(171, 40, 40);
+    height:70px;
+    width:70px;
+    background-color: rgb(208, 143, 208);
+
+    /* Rotate */
+    transform: rotate(40deg);
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+
+.box2{
+    border:2px solid rgb(171, 40, 40);
+    height:70px;
+    width:70px;
+    background-color: rgb(208, 143, 208);
+
+    /* Turn */
+    transform: rotate(0.25turn);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.box3{
+    border:2px solid rgb(171, 40, 40);
+    height:70px;
+    width:70px;
+    background-color: rgb(208, 143, 208);
+
+    /* Translate in X & Y px, % */
+    transform:translateX(50%);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.box4{
+    border:2px solid rgb(171, 40, 40);
+    height:70px;
+    width:70px;
+    background-color:  rgb(208, 143, 208);
+
+    /* Transform Origin */
+    transform:rotate(309deg);
+    transform-origin:72% 34%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
